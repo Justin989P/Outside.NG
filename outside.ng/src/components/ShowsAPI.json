@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "imgs": "showsImage1.svg",
+    "title": "Teki Conference",
+    "date": "Tue Dec 22, 2023 - 8:00 PM",
+    "address": "The Oriental, Ikoyi, Lagos."
+  },
+  {
+    "id": 2,
+    "imgs": "showsImage2.svg",
+    "title": "Portability Festival",
+    "date": "Tue Jan 24, 2023 - 8:00 PM",
+    "address": "The Streetz, Alagbado, Lagos."
+  },
+  {
+    "id": 3,
+    "imgs": "showsImage3.svg",
+    "title": "Rocky Concert",
+    "date": "Tue Nov 22, 2022 - 8:00 PM",
+    "address": "The Champ, Lagos."
+  },
+  {
+    "id": 4,
+    "imgs": "showsImage4.svg",
+    "title": "Teki Conference",
+    "date": "Tue Dec 22, 2023 - 8:00 PM",
+    "address": "The Oriental, Ikoyi, Lagos."
+  },
+  {
+    "id": 5,
+    "imgs": "showsImage5.svg",
+    "title": "Portability Festival",
+    "date": "Tue Jan 24, 2023 - 8:00 PM",
+    "address": "The Streetz, Alagbado, Lagos."
+  },
+  {
+    "id": 6,
+    "imgs": "showsImage2.svg",
+    "title": "Rocky Concert",
+    "date": "Tue Nov 22, 2022 - 8:00 PM",
+    "address": "The Champ, Lagos."
+  },
+  {
+    "id": 7,
+    "imgs": "showsImage1.svg",
+    "title": "Teki Conference",
+    "date": "Tue Dec 22, 2023 - 8:00 PM",
+    "address": "The Oriental, Ikoyi, Lagos."
+  }
+]

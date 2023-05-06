@@ -1,13 +1,12 @@
 import React from 'react'
 
-const PopularShow = ({imgs,date,address,title}) => {
+const PopularShow = ({show}) => {
   return (
-      <div>
-          <h4>hello</h4>
-          <img src={imgs} className='w-[200px] h-[210px]' alt="Event Image" />
-          <h3 className='text-[14px] font-[400]'>{title}</h3>
-          <p className='text-[14px] font-[400]'>{ date}</p>
-          <p className='text-[14px] font-[400]'>{address}</p>
+      <div key={show.id} className='mr-[2em]'>
+          <img src={show.imgs} className='w-[214px]' alt="Event Image" />
+          <h3 className='text-[14px] font-[400]'>{show.title}</h3>
+          <p className='text-[14px] font-[400]'>{ show.date}</p>
+          <p className='text-[14px] font-[400]'>{show.address}</p>          
     </div>
   )
 }
