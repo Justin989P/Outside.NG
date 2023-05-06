@@ -1,13 +1,13 @@
 import React,{useState} from 'react'
 import PopularShow from './PopularShow'
 
-const PopularShows = ({ events }) => {
+const PopularShows = ({events}) => {
     
     return (
-        <div>
-            {events.map((event, index) => {
-                <PopularShow key={index} title={event.title} date={event.date} imgs={event.imgs} address={event.address} id={event.id} />
-            })}
+        <div className= 'flex flex-row w-[1100px] overflow-x-auto'>
+            {events.map(show => (
+                <PopularShow key={show.id} show={show} />
+            ))}
         </div>
     )
 }
