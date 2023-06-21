@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const HottestEvent = ({ hotEvent }) => {
+const HottestEvent = ({ hotEvent,showEventPage,index }) => {
     return (
-        <div key={hotEvent.id}>
+        <Link key={hotEvent.id} to='/event' onClick={()=>showEventPage(index)}>
           
             <img src={hotEvent.imgs} className='w-[397px]' alt="Event Image" />
             <div className='flex justify-between items-end'>
@@ -19,7 +19,7 @@ const HottestEvent = ({ hotEvent }) => {
             </div>
 
             
-        </div>
+        </Link>
     )
 };
 
