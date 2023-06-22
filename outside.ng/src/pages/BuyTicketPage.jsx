@@ -6,7 +6,7 @@ import PaymentPage from './PaymentPage'
 import PopularShowsPage from './shows/PopularShowsPage'
 
 const BuyTicket = ({ events }) => {
-    const [showPaymentPopup,setShowPaymentPopup] = useState(true)
+    const [showPaymentPopup,setShowPaymentPopup] = useState(false)
   return (
     <div className='relative'>
           {<Nav />}
@@ -105,7 +105,7 @@ const BuyTicket = ({ events }) => {
               <div className='mb-[23px] ml-[8.5em]'>
               <PopularShowsPage events={events}/>
           </div>
-          <div className='absolute top-0 z-[99]'>
+          <div className=''>
               {showPaymentPopup && <PaymentPage />}
           </div>
           
