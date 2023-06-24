@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 const SeeMoreEvents = ({ hotEvents }) => {
   return (
-    <div>
+    <div className="bg-backGroundColor">
       {<Nav />}
       <div className="w-[94%] mx-[auto] mt-[102px] mb-[79px]">
         <h1 className="text-[45px] font-[700] mb-[49px]">Hottest Event</h1>

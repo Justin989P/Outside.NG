@@ -9,7 +9,7 @@ export default {
     colors: {
       'textColor': '#421197',
       'whiteColor': '#FFFFFF',
-      'backGroundColor': '#F5F5F5',
+      'backGroundColor': 'rgb(240, 239, 239)',
       'purpleColor': '#651EBC',
       'grayColor': '#898CA9',
       'greyColor':'#A39F9F',
@@ -18,7 +18,12 @@ export default {
       'aquaColor': '#83E7FE',
       'goldColor': '#FBBC05',
       'royalBlue': '#1E5FD7',
-      'modalBG':'rgba(0, 0, 0,0.4)'
+      'blueColor':'#3D81FF',
+      'modalBG': 'rgba(0, 0, 0,0.4)',
+      'lightPurple': 'rgb(216, 182, 248)',
+      'offWhite': '#F1F3F8',
+      'blurryPurple':'#EEEAF2'
+      
     },
   },
   plugins: [],

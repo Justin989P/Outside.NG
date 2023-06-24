@@ -5,7 +5,7 @@ import Nav from "./Nav";
 
 const EventPage = ({ hotEvents, number }) => {
   return (
-    <div>
+    <div className="bg-backGroundColor">
       {<Nav />}
       <div className="w-[30%] mx-[auto] mt-[65px]">
         <Event hotEvents={hotEvents} number={number} />
