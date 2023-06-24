@@ -1,8 +1,12 @@
 import { useState } from "react";
 import { Route, Routes} from "react-router-dom";
+import AboutPage from "./pages/AboutPage";
 import BuyTicket from "./pages/BuyTicketPage";
+import ContactUsPage from "./pages/ContactUsPage";
 import EventPage from "./pages/EventPage";
 import Homepage from "./pages/Homepage";
+import Nav from "./pages/Nav";
+import PricingPage from "./pages/PricingPage";
 import SeeMoreEvents from "./pages/SeeMoreEvents";
 import UserHomepage from "./pages/UserHomepage";
 function App() {
@@ -91,7 +95,10 @@ function App() {
         <Route path='/my-homepage' element={<UserHomepage events={events} hotEvents={hotEvents} />} />
         <Route path='/see-more' element={<SeeMoreEvents hotEvents={hotEvents} />} />
         <Route path='/event' element={<EventPage hotEvents={hotEvents} number={number} setNumber={setNumber} />} />
-        <Route path='/buy-ticket' element={<BuyTicket events={ events} />}/>
+        <Route path='/buy-ticket' element={<BuyTicket events={events} />} />
+        <Route path="/pricing" element={<PricingPage />} />
+        <Route path='/about' element={<AboutPage />} />
+        <Route path='/contact-us' element={<ContactUsPage/>}/>
       </Routes>
       
     </>

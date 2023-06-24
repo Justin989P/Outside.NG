@@ -6,9 +6,12 @@ import PaymentPage from './PaymentPage'
 import PopularShowsPage from './shows/PopularShowsPage'
 
 const BuyTicket = ({ events }) => {
-    const [showPaymentPopup,setShowPaymentPopup] = useState(false)
+    const [showPaymentPopup, setShowPaymentPopup] = useState(false);
+    const cancelPaymentPopup = () => {
+        setShowPaymentPopup(false)
+    }
   return (
-    <div className='relative'>
+    <div className='relative bg-backGroundColor'>
           {<Nav />}
           <div className='mt-[2.5em] w-[80%] mx-[auto]'>
           <div className='flex justify-between items-center mb-[42px]'>
@@ -106,7 +109,7 @@ const BuyTicket = ({ events }) => {
               <PopularShowsPage events={events}/>
           </div>
           <div className=''>
-              {showPaymentPopup && <PaymentPage />}
+              {showPaymentPopup && <PaymentPage cancelPaymentPopup={cancelPaymentPopup} />}
           </div>
           
           
